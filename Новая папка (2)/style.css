@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+
 .one{
    
 position: absolute;
@@ -11,7 +14,6 @@ background: linear-gradient(0.81deg, #39E5A6 -19.94%, rgba(138, 214, 255, 0.9921
 
 
 position: relative;
-width: 4096px;
 height: 218px;
 
 background: #C3FFFE;
@@ -30,21 +32,19 @@ top: 20px;
 position: absolute;
 width: 1500px;
 height: 79px;
-left: 1450px;
+left: 1390px;
 top: 70px;
 
 font-family: 'Prosto One';
 font-style: normal;
-font-weight: 400;
-font-size: 64px;
+font-weight: 300;
+font-size: 50px;
 line-height: 79px;
-/* identical to box height */
-
 color: rgba(0, 0, 0, 0.57);
 }
 
 .Rectangle{
-width: 4092px;
+
 height: 218px;
 left: 0px;
 top: 0px;
@@ -86,12 +86,18 @@ top: 1580px;
 
 .round {
      position: absolute;
-width: 180px;
-height: 180px;
+width: 170px;
+height: 170px;
 border: 10px solid #FFFFFF;
 border-radius: 200px;
+display: flex;
+justify-content: center;
+align-items: center;
 }
-
+.round img{
+    width: 110px;
+    height: 110px;
+}
 .absolute {
     position: absolute;
 }
