@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Jaro:opsz@6..72&display=swap');
 
+main {
+    display: flex;
+}
+
 html {
     width: 4096px;
     height: 2160px;
@@ -170,7 +174,7 @@ color: #FFFFFF;
 }
 
 .textexcurs {
-    width: 50%;
+    width: 1600px;
     height: 1240px;
     margin-left: 80px;
 }
@@ -191,6 +195,7 @@ color: #FFFFFF;
 
 .pictures img {
     height: auto;
+    border-radius: 70px;
 }
 
 .excurs {
